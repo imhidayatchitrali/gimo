@@ -1,13 +1,14 @@
-import { Card } from '@mui/material';
-import './App.css';
 import ResponsiveAppBar from './component/navbar';
+import './App.css';
+import AutoGrid from './component/nav';
+import MediaCard from './component/cards';
 
 function App() {
   return (
-    <div>
+    <>
       <ResponsiveAppBar />
-      <Card />
-    </div>
+      <MediaCard />
+    </>
   );
 }
 

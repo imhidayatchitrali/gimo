@@ -44,8 +44,8 @@ function ResponsiveAppBar() {
                     <Box
                         component="img"
                         sx={{
-                            height: 150,
-                            width: 150,
+                            height: 100,
+                            width: 100,
                             maxHeight: { xs: 233, md: 167 },
                             maxWidth: { xs: 350, md: 250 },
                         }}
@@ -70,7 +70,7 @@ function ResponsiveAppBar() {
                     >
                         GIMO
                     </Typography>
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                    {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -135,9 +135,9 @@ function ResponsiveAppBar() {
                                 {page}
                             </Button>
                         ))}
-                    </Box>
+                    </Box> */}
 
-                    <Box sx={{ flexGrow: 0 }}>
+                    {/* <Box sx={{ flex: 1 }}>
                         <Tooltip title="Open settings">
                             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -165,7 +165,7 @@ function ResponsiveAppBar() {
                                 </MenuItem>
                             ))}
                         </Menu>
-                    </Box>
+                    </Box> */}
                 </Toolbar>
             </Container>
         </AppBar>
